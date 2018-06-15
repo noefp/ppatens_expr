@@ -10,7 +10,7 @@ $input_gene => ()
 
 <script>
 //display link to SGN and query gene description
-$("#gene_name").html("<a href=\"https://peatmoss.online.uni-marburg.de/ppatens_db/pp_annot.php?name="+genes[0]+"\">"+genes[0]+"</a>");
+$("#gene_name").html("<a href=\"https://peatmoss.online.uni-marburg.de/ppatens_db/pp_annot.php?name="+genes[0]+"\" target=\"_blank\">"+genes[0]+"</a>");
 $("#gene_desc").html(gene_descriptions[genes[0]]);
 $("#project_desc").html(project_name);
 $("#back_to_input").html("Go back to input page");
