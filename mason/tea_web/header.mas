@@ -18,7 +18,7 @@
 
 	<body>
 		<div id="header">
-      <nav class="navbar navbar-default" style="border-radius: 0px;">
+      <nav class="navbar navbar-default">
         <div class="container-fluid">
 
           <div class="navbar-header">
@@ -34,6 +34,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/expression_viewer/input">Expression Viewer</a></li>
               <li><a href="/help">Help</a></li>
+              <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> DB</a></li>
             </ul>
           </div>
 
@@ -46,12 +47,17 @@
 
 <style>
 
-.navbar-nav > li > a {
+/*.navbar-nav > li > a {
     font-size: 14px;
 }
 
 .dropdown-menu > li > a {
     font-size: 14px;
-}
+}*/
 
+.navbar {
+	/*background-color: #004600;
+	color: #cecd68;*/
+	border-radius: 0px;
+}
 </style>
