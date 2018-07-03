@@ -34,7 +34,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/expression_viewer/input">Expression Viewer</a></li>
               <li><a href="/help">Help</a></li>
-              <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> DB</a></li>
+              <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a></li>
             </ul>
           </div>
 
