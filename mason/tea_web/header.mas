@@ -27,12 +27,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+						<a class="navbar-brand" href="/expression_viewer/input" style="padding:8px 8px" target="_blank"><img src="/static/images/PEATmoss_logo.png" title="PEATmoss"></a>
             <a class="navbar-brand sgn_brand_name" href="/expression_viewer/input">PEATmoss</a>
           </div>
 
           <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="/expression_viewer/input">Expression Viewer</a></li>
+            <ul class="nav navbar-nav" style="margin-left:150px">
+              <!-- <li><a href="/expression_viewer/input">Expression Viewer</a></li> -->
               <li><a href="/help">Help</a></li>
               <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a></li>
             </ul>
@@ -42,6 +43,8 @@
       </nav>
       <br>
 	</div>
+	<div id="header_line"></div>
+
 	</body>
 </html>
 
@@ -54,10 +57,69 @@
 .dropdown-menu > li > a {
     font-size: 14px;
 }*/
+#header_line {
+	border-width: 2px;
+	border-bottom-style: solid;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	border-color: #c9ebcd;
+	width:90%
+}
 
 .navbar {
-	/*background-color: #004600;
-	color: #cecd68;*/
+	min-height: 120px;
+	background-color: #004600;
+	color: #ffcc00;
 	border-radius: 0px;
+	border-width: 0px;
+	margin-bottom: 0px;
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: #c9ebcd;
+    /*color: #ffcc00;*/
+		font-size: 24px;
+		padding-top:50px;
+		font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    /*color: #ffff00;*/
+		/*text-decoration: underline;*/
+}
+
+.navbar-default .navbar-brand {
+    color: #c9ebcd;
+		font-size: 28px;
+		padding-top:50px;
+		font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ffff00;
+}
+
+#wrapper {
+    /*background-color: #6f9f40;*/
+    background-color: #004600;
+}
+
+canvas, #container {
+	 background-color: #fff;
+}
+
+h2, h3, h4, p, li, #gene_label {
+	color: #ffcc00;
+}
+
+a {
+	color: #6ae;
+}
+
+a:hover {
+	color: #36b;
+}
+
 </style>
