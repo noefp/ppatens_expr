@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<script type="text/javascript" src="/static/js/jquery.js"></script>
 
+		<link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <script src="/static/js/bootstrap.min.js"></script>
 
@@ -18,29 +19,34 @@
 
 	<body>
 		<div id="header">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+      <!-- <nav class="navbar navbar-default" style="float:none"> -->
+        <!-- <div class="container-fluid"> -->
 
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+          <!-- <div class="navbar-header"> -->
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> -->
+              <!-- <span class="icon-bar"></span> -->
+              <!-- <span class="icon-bar"></span> -->
+              <!-- <span class="icon-bar"></span> -->
+            <!-- </button> -->
 						<a class="navbar-brand" href="/expression_viewer/input" style="padding:8px 8px" target="_blank"><img src="/static/images/PEATmoss_logo.png" title="PEATmoss"></a>
-            <a class="navbar-brand sgn_brand_name" href="/expression_viewer/input">PEATmoss</a>
-          </div>
+            <a class="navbar-brand header_title" href="/expression_viewer/input">PEATmoss</a>
+						<!-- <a class="navbar-brand" href="/expression_viewer/input" style="padding:8px 8px" target="_blank"><img src="/static/images/PEATmoss_logo.png" title="PEATmoss"></a>
+            <a class="navbar-brand sgn_brand_name" href="/expression_viewer/input">PEATmoss</a> -->
+          <!-- </div> -->
 
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav" style="margin-left:150px">
+          <!-- <div class="collapse navbar-collapse" id="myNavbar"> -->
+            <!-- <ul class="nav navbar-nav" style="margin-left:150px"> -->
+            <div class="menu_tab_div">
               <!-- <li><a href="/expression_viewer/input">Expression Viewer</a></li> -->
-              <li><a href="/help">Help</a></li>
-              <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a></li>
-            </ul>
-          </div>
+              <a class="menu_tab" href="/help">Help</a>
+              <a class="menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a>
+              <!-- <li><a href="/help">Help</a></li>
+              <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a></li> -->
+            </div>
+          <!-- </div> -->
 
-        </div>
-      </nav>
+        <!-- </div> -->
+      <!-- </nav> -->
       <br>
 	</div>
 	<div id="header_line"></div>
@@ -50,13 +56,40 @@
 
 <style>
 
-/*.navbar-nav > li > a {
-    font-size: 14px;
+#header {
+	min-height: 120px;
 }
 
-.dropdown-menu > li > a {
-    font-size: 14px;
-}*/
+.header_title {
+	color: #c9ebcd;
+	font-size: 28px;
+	padding-top:50px;
+	font-weight: bold;
+}
+
+.header_title:hover {
+	color: #ffff00;
+}
+
+.menu_tab_div {
+	min-width: 800px;
+	margin-left:350px;
+	padding-top:45px;
+}
+
+.menu_tab {
+	color: #c9ebcd;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.menu_tab:hover {
+	color: #ffff00;
+	text-decoration: none;
+	/*color: #fff;*/
+}
+
 #header_line {
 	border-width: 2px;
 	border-bottom-style: solid;
@@ -67,39 +100,6 @@
 	width:90%
 }
 
-.navbar {
-	min-height: 120px;
-	background-color: #004600;
-	color: #ffcc00;
-	border-radius: 0px;
-	border-width: 0px;
-	margin-bottom: 0px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #c9ebcd;
-    /*color: #ffcc00;*/
-		font-size: 24px;
-		padding-top:50px;
-		font-weight: bold;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-    color: #fff;
-    /*color: #ffff00;*/
-		/*text-decoration: underline;*/
-}
-
-.navbar-default .navbar-brand {
-    color: #c9ebcd;
-		font-size: 28px;
-		padding-top:50px;
-		font-weight: bold;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: #ffff00;
-}
 
 #wrapper {
     /*background-color: #6f9f40;*/
