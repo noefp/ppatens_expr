@@ -18,7 +18,7 @@
 	</head>
 
 	<body>
-		<div id="header">
+		<div id="pmoss_header">
       <!-- <nav class="navbar navbar-default" style="float:none"> -->
         <!-- <div class="container-fluid"> -->
 
@@ -29,17 +29,17 @@
               <!-- <span class="icon-bar"></span> -->
             <!-- </button> -->
 						<a class="navbar-brand" href="/expression_viewer/input" style="padding:8px 8px" target="_blank"><img src="/static/images/PEATmoss_logo.png" title="PEATmoss"></a>
-            <a class="navbar-brand header_title" href="/expression_viewer/input">PEATmoss</a>
+            <a class="navbar-brand pmoss_header_title" href="/expression_viewer/input">PEATmoss</a>
 						<!-- <a class="navbar-brand" href="/expression_viewer/input" style="padding:8px 8px" target="_blank"><img src="/static/images/PEATmoss_logo.png" title="PEATmoss"></a>
             <a class="navbar-brand sgn_brand_name" href="/expression_viewer/input">PEATmoss</a> -->
           <!-- </div> -->
 
           <!-- <div class="collapse navbar-collapse" id="myNavbar"> -->
             <!-- <ul class="nav navbar-nav" style="margin-left:150px"> -->
-            <div class="menu_tab_div">
+            <div class="pmoss_menu_tab_div">
               <!-- <li><a href="/expression_viewer/input">Expression Viewer</a></li> -->
-              <a class="menu_tab" href="/help">Help</a>
-              <a class="menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a>
+              <a class="pmoss_menu_tab" href="/help">Help</a>
+              <a class="pmoss_menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a>
               <!-- <li><a href="/help">Help</a></li>
               <li><a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php"><i>P.patens</i> gene model lookup</a></li> -->
             </div>
@@ -49,48 +49,47 @@
       <!-- </nav> -->
       <br>
 	</div>
-	<div id="header_line"></div>
+	<div id="pmoss_header_line"></div>
 
 	</body>
 </html>
 
 <style>
 
-#header {
+#pmoss_header {
 	min-height: 120px;
 }
 
-.header_title {
+.pmoss_header_title {
 	color: #c9ebcd;
 	font-size: 28px;
 	padding-top:50px;
 	font-weight: bold;
 }
 
-.header_title:hover {
+.pmoss_header_title:hover {
 	color: #ffff00;
 }
 
-.menu_tab_div {
+.pmoss_menu_tab_div {
 	min-width: 800px;
 	margin-left:350px;
 	padding-top:45px;
 }
 
-.menu_tab {
+.pmoss_menu_tab {
 	color: #c9ebcd;
 	font-size: 24px;
 	font-weight: bold;
 	margin-right: 20px;
 }
 
-.menu_tab:hover {
+.pmoss_menu_tab:hover {
 	color: #ffff00;
 	text-decoration: none;
-	/*color: #fff;*/
 }
 
-#header_line {
+#pmoss_header_line {
 	border-width: 2px;
 	border-bottom-style: solid;
 	position: absolute;
@@ -102,11 +101,10 @@
 
 
 #wrapper {
-    /*background-color: #6f9f40;*/
     background-color: #004600;
 }
 
-canvas, #container {
+#container, #container_tissues, #container_heatmap, #container_scatterplots {
 	 background-color: #fff;
 }
 
