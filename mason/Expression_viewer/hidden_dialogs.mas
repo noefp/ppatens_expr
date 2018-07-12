@@ -10,7 +10,19 @@ $input_gene => ()
         <h4 class="modal-title">Gene Expression Search</h4>
       </div>
       <div class="modal-body">
-        <p>Paste a gene name (Eg: <% $input_gene %>).</p>
+        <p class="black_text text-left">
+          Paste or type a Physcomitrella gene name using the right version for the dataset.
+          The names will be autocompleted as you type (if the gene name exists for the selected dataset).
+          When selecting a new dataset a new example gene will be displayed.<br>
+          Eg.:<br>
+          For RNA-seq: Pp3c1_10000V3.1<br>
+          For Combimatrix: Phypa_100005<br>
+          For Nimblegen: Pp1s10008_1V6.1<br>
+          <br>
+          To find the corresponding gene name for you version please use<br>
+          <a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php" target="_blank">the <i>P.patens</i> gene model lookup</a>
+
+         </p>
       </div>
     </div>
   </div>
@@ -25,8 +37,10 @@ $input_gene => ()
         <h4 class="modal-title">BLAST Info</h4>
       </div>
       <div class="modal-body">
-        <p>Paste a fasta sequence, a gene ID or just a sequence.</p>
-        <p>Both nucleotide or protein sequences are valid.</p>
+        <p class="black_text">
+          Please, paste a sequence.
+          Both nucleotide or protein sequences are valid.
+        </p>
       </div>
     </div>
   </div>
@@ -40,7 +54,7 @@ $input_gene => ()
         <h4 class="modal-title">Custom List Info</h4>
       </div>
       <div class="modal-body">
-        <p>Paste a list of gene IDs.</p>
+        <p class="black_text">Please, paste a list of gene IDs.</p>
       </div>
     </div>
   </div>
@@ -209,14 +223,16 @@ Pp3c7_5280V3.1
       </div>
       <div class="modal-body">
         <ul class="text-left">
-          <li>
-            Select the data set (Project) you want to query.
+          <li class="black_text">
+            Select the data set you want to query.<br>
+            You can find more information about the them following the <a href="/project_menu">more info</a> link.<br>
+            <a href="/help/input_params/#projects" target="blank">Read help page</a> for more information.
           </li>
-          <li>
+          <li class="black_text">
             Set the minimum correlation value (0.65 - 1.0) to display co-expressed genes with similar expression profiles.<br>
             <a href="/help/input_params/#cor_filter" target="blank">Read help page</a> for more information.
           </li>
-          <li>
+          <li class="black_text">
             Filter the conditions to display: Stage, tissues, treatments, etc.
             Note that when no conditions are selected for filtering all the samples from the data set will be display.<br>
             <a href="/help/input_params/#cond_sel" target="blank">Read help page</a> for more information.
@@ -237,7 +253,7 @@ Pp3c7_5280V3.1
       </div>
       <div class="modal-body">
         <div style="text-align: center;">
-          <p>No Input Gene</p>
+          <p class="black_text">No Input Gene</p>
         </div>
       </div>
       <div class="modal-footer">

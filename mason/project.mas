@@ -20,7 +20,10 @@ $exp_tables => ()
     <p><b>Description: </b><% $project_description %></p>
     <p><b>Contact: </b><% $project_contact %></p>
 
-    <p>The next figures represent the available conditions (Developmental stages, tissues, treatments, etc.) for this data set. Colors from the image are only for display purpose</p>
+    <p>
+      The next figures represent the available samples in this data set.
+      The color in the colored part of the figures below will be replaced by the expression color (from the white-yellow-orange-red color scale) when using the Expression Viewer.
+    </p>
 
     <% $layer_description %><br>
     <% $exp_tables %><br>

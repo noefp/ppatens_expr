@@ -43,7 +43,7 @@ $project_html => ()
   <div class="row">
 
     <div class="col-sm-4 col-md-4 col-lg-4">
-      <div style="text-align: center; width=100%">Developmental Stages/Tissues</div>
+      <div style="text-align: center; width=100%">Tissue - Medium (X axis)</div>
 
       <select multiple id="tissue_col" class="form-control wizard_select" size="15"></select>
       <button class="select_all btn btn-default">Select All</button>
@@ -51,7 +51,7 @@ $project_html => ()
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-4">
-      <div style="text-align: center; width=100%">Ecotypes/Treatments</div>
+      <div style="text-align: center; width=100%">Ecotypes/Treatments (Y axis)</div>
 
       <select multiple id="stage_col" class="form-control wizard_select" size="15"></select>
       <button class="select_all btn btn-default">Select All</button>

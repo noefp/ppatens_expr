@@ -108,7 +108,7 @@
 	 background-color: #fff;
 }
 
-h2, h3, h4, p, li, #gene_label {
+h2, h3, h4, p, li, #gene_label, #legend_close {
 	color: #ffcc00;
 }
 
@@ -118,6 +118,10 @@ a {
 
 a:hover {
 	color: #36b;
+}
+
+.jqplot-highlighter p {
+	color: #333;
 }
 
 </style>
