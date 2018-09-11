@@ -287,3 +287,11 @@ Pp3c7_5280V3.1
 
   </div>
 </div>
+
+<style>
+
+#blast_aln_p {
+  color: #000;
+}
+
+</style>

@@ -20,7 +20,7 @@
 
       <center>
         <img id="input_fig1" src="/static/images/help_imgs/input.png" style="width:100%;max-width:900px;"><br>
-        Figure 1. Three available input options on the Expression viewer.<br><br><br>
+        <p>Figure 1. Three available input options on the Expression viewer.</p><br>
       </center>
 
       <h4 id="geneid"><b>1.1 Search gene expression using a gene ID</b></h4>
@@ -48,7 +48,7 @@
       <br>
       <center>
         <img id="input_fig2" src="/static/images/help_imgs/blast_in.png" style="width:100%;max-width:1000px;"><br>
-        Figure 2. BLAST search input dialog.<br><br><br>
+        <p>Figure 2. BLAST search input dialog.</p><br>
       </center>
 
       <p>
@@ -64,7 +64,7 @@
       <br>
       <center>
         <img id="input_fig3" src="/static/images/help_imgs/blast_out.png" style="width:100%;max-width:1000px;"><br>
-        Figure 3. BLAST search output dialog.<br><br><br>
+        <p>Figure 3. BLAST search output dialog.</p><br>
       </center>
 
       <h4 id="custom"><b>1.3 Search gene expression for a custom list</b></h4>
@@ -79,7 +79,7 @@
       <br>
       <center>
         <img id="input_fig4" src="/static/images/help_imgs/custom_list.png" style="width:100%;max-width:1000px;"><br>
-        Figure 4. Custom list search input dialog.<br><br><br>
+        <p>Figure 4. Custom list search input dialog.</p><br>
       </center>
       <br><br>
 
