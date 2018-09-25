@@ -13,7 +13,8 @@
 		<link rel="stylesheet" href="/static/css/tea.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/static/js/codebase/dhtmlxslider.css"/>
 
-		<script type="text/javascript" src="/static/js/jqueryui/jquery-ui.js"></script>
+		<!-- <script type="text/javascript" src="/static/js/jqueryui/jquery-ui.js"></script> -->
+		<script type="text/javascript" src="/static/js/jqueryui/jquery-ui-1.12.1/jquery-ui.js"></script>
 
 	</head>
 
