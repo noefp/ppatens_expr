@@ -30,7 +30,7 @@
 
       <center>
         <img id="output_fig1" src="/static/images/help_imgs/exp_output.png" style="width:100%;max-width:1000px;"><br>
-        Figure 1. Expression Cube output.<br><br><br>
+        <p>Figure 1. Expression Cube output.</p><br><br><br>
       </center>
 
       <h4 id="exp_cube"><b>3.1 Expression Cube</b></h4>
@@ -47,8 +47,8 @@
       </p>
 
       <center>
-        <img id="output_fig2" src="/static/images/help_imgs/cube_top.png" style="width:60%;max-width:600px;"><br>
-        Figure 2. Top layer of the Expression Cube.<br><br><br>
+        <img id="output_fig2" src="/static/images/help_imgs/cube_top.png"><br>
+        <p>Figure 2. Top layer of the Expression Cube.</p><br><br><br>
       </center>
 
       <p>
@@ -63,7 +63,7 @@
 
       <center>
         <img id="output_fig3" src="/static/images/help_imgs/exp_output2.png" style="width:100%;max-width:1000px;"><br>
-        Figure 3. Expression Cube split in two showing description and correlation for a gene.<br><br><br>
+        <p>Figure 3. Expression Cube split in two showing description and correlation for a gene.</p><br><br><br>
       </center>
 
       <h4 id="exp_bar"><b>3.2 Expression bar graphs</b></h4>
@@ -79,11 +79,11 @@
       <br>
       <center>
         <img id="output_fig4" src="/static/images/help_imgs/barplot1.png" style="width:100%;max-width:800px;"><br>
-        Figure 4. Expression bar graph.<br><br><br>
+        <p>Figure 4. Expression bar graph.</p><br><br><br>
       </center>
       <center>
         <img id="output_fig5" src="/static/images/help_imgs/barplot2.png" style="width:100%;max-width:800px;"><br>
-        Figure 5. Expression bar graph with tissues and stages transposed.<br><br><br>
+        <p>Figure 5. Expression bar graph with tissues and stages transposed.</p><br><br><br>
       </center>
 
       <h4 id="exp_img"><b>3.3 Expression images</b></h4>
@@ -99,7 +99,7 @@
       <br>
       <center>
         <img id="output_fig6" src="/static/images/help_imgs/exp_images.png" style="width:100%;max-width:1000px;"><br>
-        Figure 6. Expression images output<br><br><br>
+        <p>Figure 6. Expression images output</p><br><br><br>
       </center>
 
       <h4 id="exp_heatmap"><b>3.4 Heatmap</b></h4>
@@ -115,7 +115,7 @@
 
       <center>
         <img id="output_fig7" src="/static/images/help_imgs/exp_heatmap.png" style="width:100%;max-width:1000px;"><br>
-        Figure 7. Heatmap<br><br><br>
+        <p>Figure 7. Heatmap</p><br><br><br>
       </center>
 
       <h4 id="exp_scatterplot"><b>3.5 Scatterplots</b></h4>
@@ -127,12 +127,12 @@
 
       <center>
         <img id="output_fig8" src="/static/images/help_imgs/scatterplot_selector.png" style="width:100%;max-width:1000px;"><br>
-        Figure 8. Scatterplot selector<br><br><br>
+        <p>Figure 8. Scatterplot selector</p><br><br><br>
       </center>
 
       <center>
         <img id="output_fig9" src="/static/images/help_imgs/scatterplot_output.png" style="width:100%;max-width:1000px;"><br>
-        Figure 9. Scatterplot output<br><br><br>
+        <p>Figure 9. Scatterplot output.</p><br><br><br>
       </center>
 
 

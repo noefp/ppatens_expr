@@ -52,7 +52,7 @@
 
       <center>
         <img id="noduline_fig1" src="/static/images/help_imgs/noduline1.png" style="width:100%;max-width:600px;background-color:white"><br>
-        <span style="color:#aaa">Figure 1. Expression Cube output for Solyc04g080940.</span><br><br><br>
+        <p>Figure 1. Expression Cube output for Solyc04g080940.</p><br><br><br>
       </center>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -61,7 +61,7 @@
       <br>
 
       <center>
-        <span style="color:#aaa">Table 1. Genes co-expressed with Solyc04g080940 on the expression cube.</span>
+        <p>Table 1. Genes co-expressed with Solyc04g080940 on the expression cube.</p>
 
         <table id="noduline_tab1" class=table style="color:#aaa">
           <tr><th>Gene ID</th><th>Description</th><th>Correlation val.</th><th>Ath Homolog</th><th>Ath Gene Name</th></tr>
@@ -92,7 +92,7 @@
       <br>
       <h4 id="refs"><b>References</b></h4>
       <br>
-      <table style="color:#aaa">
+      <table style="color:#FFDB00">
         <tr><td class="w_200"><a href="https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcs046" target="blank">Anstead et al. 2012</a></td><td>Arabidopsis P-Protein Filament Formation Requires Both AtSEOR1 and AtSEOR2</td></tr>
         <tr><td class="w_200"><a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2010.04256.x/abstract;jsessionid=87095B95D594EE528BFE9228CF9BC576.f02t03" target="blank">Ranocha et al. 2010</a></td><td>Walls are thin 1 (WAT1), an <i>Arabidopsis</i> homolog of <i>Medicago truncatula</i> NODULIN21, is a tonoplast-localized protein required for secondary wall formation in fibers</td></tr>
         <tr><td class="w_200"><a href="http://www.nature.com/articles/ncomms3625" target="blank">Ranocha et al. 2013</a></td><td><i>Arabidopsis</i> WAT1 is a vacuolar auxin transport facilitator required for auxin homoeostasis</td></tr>
