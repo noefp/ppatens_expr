@@ -17,7 +17,7 @@
         in a format that is easy to export to spreadsheet software and to generate figures that are ready for presentations or publications.
         <br>
         <br>
-        A case study is included here to illustrate how to use the Expression Atlas to identify genes of interest that are coexpressed with a candidate gene. 
+        A case study is included here to illustrate how to use the Expression Atlas to identify genes of interest that are coexpressed with a candidate gene.
       </p>
 
       <br>
@@ -30,7 +30,7 @@
           <br>
           <br>
           <ol>
-            <li><a href="help/input/#geneid">Search gene expression using tomato gene ID.</a></li>
+            <li><a href="help/input/#geneid">Search gene expression using a gene ID.</a></li>
             <li><a href="help/input/#blast">Search gene expression using BLAST.</a></li>
             <li><a href="help/input/#custom">Search gene expression for a custom list.</a></li>
           </ol>
