@@ -75,7 +75,7 @@
         allow the selection of the samples that will be display in the output by choosing the columns
         (Tissue X axis) and rows (Treatment Y axis) that will be shown in the cube (<a href="#params_fig5">Figure 5</a>) and other output representations.
         By selecting one or more keywords from the box 'Filter by' only the experiments related to that condition will be shown.
-        For example, selecting the term ABA, only the samples involved in an experiment related to ABA will be shown in the output.  
+        For example, selecting the term ABA, only the samples involved in an experiment related to ABA will be shown in the output.
         <br>
         <br>
         Note that when no filters are selected all the samples from the data set will be display.
@@ -88,19 +88,15 @@
       </center>
 
       <p>
-        Different selections of the stage, organ, tissue and treatment selection boxes will produce different
+        Different selections of tissues, treatments and/or filters will produce different
         <a href="/help/output" target="blank">outputs</a>.
         For example, when selecting different items from the selection boxes,
         the shape of the <a href="/help/output/#exp_cube" target="blank">expression cube</a>
-        will adapt to the selected conditions (<a href="#params_fig5">Figure 5</a>).
+        will adapt to the selected conditions.
         The figures associated with the <a href="/help/output/#exp_img" target="blank">expression images</a> and the
         <a href="/help/output/#exp_heatmap" target="blank">heatmap</a> in the data output will also change according to the selected conditions.
       </p>
 
-      <center>
-        <img id="params_fig5" src="/static/images/help_imgs/cube_shapes.png" style="width:100%;max-width:1000px;"><br>
-        <p>Figure 5. Example of different shapes of the Expression Cube.</p><br>
-      </center>
       <br><br>
 
 
