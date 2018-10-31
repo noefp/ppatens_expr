@@ -16,8 +16,10 @@ $exp_tables => ()
     <a href="/project_menu" class="pull-left" style="text-decoration: underline">Go back to menu page</a>
     <br>
     <br>
+
     <p><b>Species: </b><i><% $organism %></i>
-    <p><b>Description: </b><% $project_description %></p>
+    <& "dataset_description/${project_name}.mas" &>
+    
     <p><b>Contact: </b><% $project_contact %></p>
 
     <p>
