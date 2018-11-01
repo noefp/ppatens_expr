@@ -1,0 +1,12 @@
+<p>
+  <b>Description: </b>
+
+  Expression data of several experimental conditions for Gransden WT juvenile gametophores on solid Knop medium.
+  The data are derived from the CombiMatrix microarray platform and all the samples were normalized by a median value of 12.
+  All experiments but the red light and cold time series were published in
+  <a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12572/full" target="_blank">Hiss <i>et al</i>., 2014</a>.
+  The cold time series was published in
+  <a href="http://onlinelibrary.wiley.com/doi/10.1111/nph.13004/full" target="_blank">Beike <i>et al</i>., 2015</a>.
+  The red light experiment was published in
+  <a href="http://www.plantcell.org/content/early/2017/01/25/tpc.16.00388.long" target="_blank">Possart <i>et al</i>., 2017</a>
+</p>
