@@ -1,8 +1,11 @@
 <p>
   <b>Description: </b>
 
-  Detached Leaflet (phyllid) development time series from 0 to 96 hours.
-  Combimatrix microarray expression data published in
+  Detached Leaflet (phyllid) development time series from 0 to 96 hours. All samples were normalized by a median value of 12.
+  Combimatrix microarray expression data was published in
   <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0060494" target="_blank">Busch <i>et al</i>., 2013</a>
   and <a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12572/full" target="_blank">Hiss <i>et al</i>., 2014</a>.
 </p>
+
+<& "abbreviations.mas" &>
+<br>

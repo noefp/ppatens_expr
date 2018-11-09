@@ -1,0 +1,28 @@
+<table class="pm_table">
+  <tr><td><b>Abbreviations</b></td></tr>
+  <tr><td>BCD liquid</td><td>Blq</td></tr>
+  <tr><td>BCDA (ammonium)liquid</td><td>BlqA</td></tr>
+  <tr><td>BCD solid</td><td>Bsl</td></tr>
+  <tr><td>BCDA (ammonium) solid</td><td>BslA</td></tr>
+  <tr><td>Gibberellin A9 methyl-ester</td><td>GA9</td></tr>
+  <tr><td>hydroponic</td><td>hydr</td></tr>
+  <tr><td>Knop liquid</td><td>Klq</td></tr>
+  <tr><td>Knop liquid ammonium</td><td>KlqA</td></tr>
+  <tr><td>Knop solid</td><td>Ksl</td></tr>
+  <tr><td>12-oxophytodienoic acid</td><td>OPDA</td></tr>
+</table>
+
+<p>
+Note: OPDA is a precursor of jasmonic acid.
+</p>
+
+<style>
+
+.pm_table {
+  color: #ffcc00;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 270px;
+}
+
+</style>
