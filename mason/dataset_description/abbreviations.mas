@@ -1,5 +1,11 @@
 <table class="pm_table">
-  <tr><td><b>Abbreviations</b></td></tr>
+  <tr style="border-bottom: solid 1px #ffcc00">
+    <th>
+      <b>Abbreviations</b>
+    </th>
+    <th>
+    </th>
+  </tr>
   <tr><td>BCD liquid</td><td>Blq</td></tr>
   <tr><td>BCDA (ammonium) liquid</td><td>BlqA</td></tr>
   <tr><td>BCD solid</td><td>Bsl</td></tr>
@@ -9,7 +15,11 @@
   <tr><td>Knop liquid</td><td>Klq</td></tr>
   <tr><td>Knop liquid ammonium</td><td>KlqA</td></tr>
   <tr><td>Knop solid</td><td>Ksl</td></tr>
-  <tr><td>12-oxophytodienoic acid</td><td>OPDA</td></tr>
+
+  <tr style="border-bottom: solid 1px #ffcc00; padding-bottom:20px;height:45px">
+    <td>12-oxophytodienoic acid</td>
+    <td>OPDA</td>
+  </tr>
 </table>
 
 <p>
@@ -19,10 +29,16 @@ Note: OPDA is a precursor of jasmonic acid.
 <style>
 
 .pm_table {
+  width: 570px;
   color: #ffcc00;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin-top: 20px;
-  width: 270px;
+  padding: 20px;
+}
+
+.pm_table td {
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 </style>
