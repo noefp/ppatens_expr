@@ -12,9 +12,9 @@ $project_html => ()
 
     <div class="col-sm-6 col-md-6 col-lg-6">
       <div style="text-align: center; width=100%">Datasets <a href="/project_menu" target="blank" style="float:right">more info</a></div>
-      <div id="expr_params" class="panel panel-primary" style="overflow: scroll;">
+      <div id="expr_datasets" class="panel panel-primary">
 
-        <div class="panel-body">
+        <div class="panel-body" style="padding-top:0px; padding-bottom:0px">
           <form role="form" id="organism_col">
             <% $project_html %>
           </form>
@@ -23,7 +23,7 @@ $project_html => ()
     </div>
 
     <div class="col-sm-6 col-md-6 col-lg-6">
-       <div id="expr_params" class="panel" style="margin-top: 25px;">
+       <div id="expr_params" class="panel">
           <div class="panel-body" style="padding-bottom: 25px;">
 
             Correlation filter: 0.<input type="text" id="amount" readonly style="border:0;font-size:18px;background-color: #fff;" size="4">
@@ -149,5 +149,14 @@ $project_html => ()
   .ui-slider .ui-slider-handle {
       width: 0.5em;
       height: 1.5em;
+  }
+  #expr_datasets {
+    height:270px;
+    overflow: scroll;
+    min-width:465px
+  }
+  #expr_params {
+    margin-top: 25px;
+    margin-left: 20px;
   }
 </style>
