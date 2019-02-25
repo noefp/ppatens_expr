@@ -43,7 +43,7 @@ $project_html => ()
   <div class="row">
 
     <div class="col-sm-4 col-md-4 col-lg-4">
-      <div style="text-align: center; width=100%">Tissue - Medium (Y axis)</div>
+      <div style="text-align: center; width=100%">Tissue - Medium (Y axis) <button type="button" class="info_icon" data-toggle="modal" data-target="#sample_help">i</button></div>
 
       <select multiple id="tissue_col" class="form-control wizard_select" size="15"></select>
       <button class="select_all btn btn-default">Select All</button>
@@ -51,7 +51,7 @@ $project_html => ()
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-4">
-      <div style="text-align: center; width=100%">Ecotypes/Treatments (X axis)</div>
+      <div style="text-align: center; width=100%">Ecotypes/Treatments (X axis) <button type="button" class="info_icon" data-toggle="modal" data-target="#sample_help">i</button></div>
 
       <select multiple id="stage_col" class="form-control wizard_select" size="15"></select>
       <button class="select_all btn btn-default">Select All</button>
@@ -59,7 +59,7 @@ $project_html => ()
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-4">
-      <div style="text-align: center; width=100%">Filter by</div>
+      <div style="text-align: center; width=100%">Filter by <button type="button" class="info_icon" data-toggle="modal" data-target="#sample_help">i</button></div>
 
       <select multiple id="condition_col" class="form-control wizard_select" size="15"></select>
       <button class="select_all btn btn-default pull-left">Select All</button>

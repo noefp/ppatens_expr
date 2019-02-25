@@ -243,6 +243,40 @@ Pp3c7_5280V3.1
   </div>
 </div>
 
+<!-- sample selection info dialog -->
+<div class="modal fade" id="sample_help" role="dialog">
+  <div class="modal-dialog" style="width: 670px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sample selection filter</h4>
+      </div>
+      <div class="modal-body">
+        <ul class="text-left">
+          <li class="black_text">
+            Filter the conditions to display in the results: Tissues, ecotype, treatments, etc.
+            The selected conditions for X and Y axis will be displayed in the columns and rows of the expression cube.
+          </li>
+          <li class="black_text">
+            Note that when no conditions are selected for filtering all the samples from the data set will be display.<br>
+          </li>
+          <li class="black_text">
+            <a href="/help/input_params/#cond_sel" target="blank">Read help page</a> for more information.
+          </li>
+          <br>
+          <div style="background-color:#004600;padding:10px;border-radius: 6px;">
+            <& "../dataset_description/abbreviations.mas" &>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 <!--  no input gene modal -->
 <div class="modal fade" id="no_gene_modal" role="dialog">
   <div class="modal-dialog modal-sm">
