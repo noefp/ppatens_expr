@@ -12,15 +12,16 @@ $exp_tables => ()
 <center>
   <h2><% $project_name %></h2>
 
-  <div style="width:900px; text-align: left;">
+  <div style="width:900px; text-align: left; font-size:18px">
     <a href="/project_menu" class="pull-left" style="text-decoration: underline">Go back to menu page</a>
     <br>
     <br>
 
-    <p><b>Species: </b><i><% $organism %></i>
+    <p>
+    <& "dataset_description/peatmoss_contact.mas" &>
+    </p>
+
     <& "dataset_description/${project_name}.mas" &>
-    
-    <p><b>Contact: </b><% $project_contact %></p>
 
     <p>
       The next figures represent the available samples in this data set.

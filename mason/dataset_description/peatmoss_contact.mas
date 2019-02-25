@@ -1,0 +1,12 @@
+<script>
+    function contt() {
+        var addr = "moss" + '>' + "plantcode_mail.biologie.uni_marburg.de";
+        addr = addr.replace(/_/g, "-");
+        addr = addr.replace(">", "@");
+        // alert("addr: "+addr);
+        window.location.href='mailto:peat'+addr+'?subject=PEATmoss contact';
+    }
+</script>
+
+<b>Contact Us:</b>
+<a onclick="contt()"><span class="glyphicon glyphicon-envelope" style="line-height: 0;cursor: pointer;"></span></a>
