@@ -24,7 +24,11 @@
       <br>
 
       <ol>
-
+        <li>
+        <a href="/project_menu">Data set information.</a>
+        <br>
+        <br>
+        </li>
         <li>
           <a href="help/input">Three ways to explore gene expression.</a>
           <br>
