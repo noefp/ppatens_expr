@@ -109,7 +109,7 @@
 	 background-color: #fff;
 }
 
-h2, h3, h4, p, #gene_label, #legend_close {
+h2, h3, h4, p, #gene_label, #legend_close, #dataset_list {
 	color: #ffcc00;
 }
 

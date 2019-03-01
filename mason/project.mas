@@ -53,6 +53,7 @@ $exp_tables => ()
 #color_legend {
 	width:400px;
   padding-top:20px;
+  color: #fff;
 }
 
 #color_legend li {
