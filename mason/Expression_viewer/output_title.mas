@@ -1,1 +1,14 @@
 <h2 id="project_desc"></h2>
+
+<script>
+$(document).ready(function () {
+
+  $(".multiple_lookup_gene").click(function(){
+    var lookup_gene_name = jQuery(this).attr('value');
+
+    $('#gene').val(lookup_gene_name);
+    $("#search_gene").submit();
+  });
+
+});
+</script>
