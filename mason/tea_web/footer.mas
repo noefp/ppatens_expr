@@ -1,9 +1,26 @@
+<div id="peat_footer" align="center">
+  <p class="black_text">
+    All data and services offered on this site are &copy; copyrighted. Distribution via internet or other media is prohibited.
+  </p>
 
-<div id="footer">
-  <div style="text-align:center;padding-top:15px;cursor: pointer">
-    <a data-toggle="modal" data-target="#cite_us_modal">Cite Us</a>
+  <div style="font-size: 12px;">
+    <a href="https://www.plantco.de/Datenschutz.php">
+      Datenschutzerkl&auml;rung / Data policy
+    </a>
+    &nbsp;&bull;&nbsp;
+    <a href="https://www.plantco.de/impressum.php">
+      Impressum / Imprint
+    </a>
+    &nbsp;&bull;&nbsp;
+    <a data-toggle="modal" data-target="#cite_us_modal" style="cursor:pointer">Cite Us</a>
   </div>
+
+  <p class="black_text">
+    Last update: 2019-03-22
+  </p>
 </div>
+
+</div> <!-- close wrapper div -->
 
 <div class="modal fade" id="cite_us_modal" role="dialog">
 <div class="modal-dialog">
@@ -27,23 +44,23 @@
 </div>
 </div>
 
-<style>
-.cite-link {
-  color: #337ab7;
-}
+</body>
+</html>
 
-/*a {
-  color: #134a87;
-}*/
+<style>
+
+#peat_footer {
+padding-top:5px;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #fff;
+background-color: #e8e8e8;
+font-size: 12px;
+width: 100%;
+}
 
 .modal-title, .black_text {
   color: #555;
-}
-
-#footer {
-  display:inline;
-  background-color: #004600;
-  border-top: 1px solid #c9ebcd;
 }
 
 </style>

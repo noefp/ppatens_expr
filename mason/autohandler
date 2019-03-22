@@ -1,0 +1,38 @@
+<!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<body>
+
+	<div id="wrapper">
+
+		<div id="header">
+			<& /tea_web/header.mas &>
+		</div>
+
+		<div id="content">
+			<% $m->call_next %>
+			<!-- % $m->call_next; -->
+		</div>
+		<br>
+		<div id="peatmoss_footer">
+			<& /tea_web/footer.mas &>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
+
+<style>
+
+#peatmoss_footer {
+  width:100%;
+  /* min-height:80px; */
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#e8e8e8;
+}
+
+</style>
