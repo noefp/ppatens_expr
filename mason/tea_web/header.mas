@@ -28,6 +28,7 @@
         <a class="pmoss_menu_tab" href="/help">Help</a>
         <a class="pmoss_menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php">PpGML DB</a>
         <a class="pmoss_menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/contact.php">About Us</a>
+				<a class="pmoss_menu_tab" href="https://www.plantco.de/" target="_blank"><span class="plant">plant</span><span class="plantco">co</span><span class="plantco-dot">.</span><span class="plantco">de</span></a>
       </div>
 
 			<div id="peatmoss_menu_bar">
@@ -68,7 +69,7 @@
 }
 
 .pmoss_menu_tab_div {
-	width: 700px;
+	width: 850px;
 	margin:auto;
 	padding-top:5px;
 	padding-left:40px;
@@ -111,6 +112,22 @@ a:hover {
 
 .jqplot-highlighter p {
 	color: #333;
+}
+
+.plant {
+	color: #C7FF97;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+.plantco {
+	color: #C8FFC8;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+.plantco-dot {
+	color: #378436;
+	/*font-family: "Courier New", Courier, monospace;*/
+	font-weight: bold;
 }
 
 </style>
