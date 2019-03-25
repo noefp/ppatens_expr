@@ -22,9 +22,8 @@ $input_gene => ()
           If the gene version from the input gene and the selected dataset are different then, PEATmoss will automatically
           convert the input gene in the equivalent gene for the dataset gene version. When more than one gene is found,
           a list will allow to choose which gene to use to display the results.<br>
-          To convert genes between gene model versions, PEATmoss uses<br>
-          <a href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php" target="_blank">the <i>P.patens</i> gene model lookup</a>
-
+          <br>
+          Please, <a href="/ppatens_db/video_gallery.php" target="_blank">check out our videos</a> to learn more about it
          </p>
       </div>
     </div>
