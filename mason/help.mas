@@ -1,5 +1,5 @@
 <center>
-  <h2 style="margin-top:0px">Expression Viewer Help</h2>
+  <h2 style="margin-top:0px">PEATmoss Help</h2>
 </center>
 
 
@@ -10,17 +10,36 @@
 
       <br>
       <p>
-        The Expression Viewer is an interactive tool to visualize gene expression data.
+        PEATmoss is an interactive tool to visualize gene expression data.
         These help pages explain several ways to query the expression data and to visualize the results,
         enabling the comparison of the expression profiles of several genes simultaneously,
         as well as to visualize co-expression information. One section describes how to download the expression data
         in a format that is easy to export to spreadsheet software and to generate figures that are ready for presentations or publications.
         <br>
         <br>
-        A case study is included here to illustrate how to use the Expression Atlas to identify genes of interest that are coexpressed with a candidate gene.
+        PEATmoss unifies in one single tool <i>Physcomitrella patens</i> data sets from RNA-seq and expression microarrays based on
+        multiple gene versions. Please, check out our video gallery for more information about PEATmoss and
+        how the <i>P. patens</i> gene model lookup database is integrated
+        to convert gene versions automatically when querying the expression data.
       </p>
 
       <br>
+
+    <table>
+      <tr>
+        <td>
+          <a href="/ppatens_db/video_gallery.php" target="_blank" style="padding-left:70px">To video gallery</a>
+          <br>
+          <a href="/ppatens_db/video_gallery.php" target="_blank"><img class="img-thumbnail" src="/static/images/peatmoss_img/video1_min.png" width="240px" style="margin-right:20px"></a>
+        </td>
+        <td>
+        <a href="/static/images/peatmoss_img/gene_models.png" target="_blank"><i>P. patens</i> gene model versions</a>
+        <br>
+        <a href="/static/images/peatmoss_img/gene_models.png" target="_blank"><img class="img-thumbnail" src="/static/images/peatmoss_img/gene_models.png" width="220px" style="margin-right:20px"></a>
+        </td>
+      </tr>
+    </table>
+
       <br>
 
       <ol style="color:#ffcc00">
@@ -45,7 +64,7 @@
           <br>
           <br>
           <ol>
-            <li><a href="help/input_params/#projects">Projects.</a></li>
+            <li><a href="help/input_params/#projects">Data sets.</a></li>
             <li><a href="help/input_params/#cor_filter">Correlation filter and expression color scale.</a></li>
             <li><a href="help/input_params/#cond_sel">Selection of the conditions.</a></li>
           </ol>
