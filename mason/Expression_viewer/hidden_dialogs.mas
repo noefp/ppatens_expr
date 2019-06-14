@@ -312,7 +312,7 @@ Pp3c7_5280V3.1
       </div>
       <div class="modal-body">
         <div style="text-align: center;">
-          <p>The images are now downloading. This may take a minute.</p>
+          <p class="black_text">This may take a couple of minutes</p>
           <img src=/static/images/wheel.gif>
         </div>
       </div>

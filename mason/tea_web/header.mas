@@ -94,7 +94,7 @@
     background-color: #004600;
 }
 
-#container, #container_tissues, #container_heatmap, #container_scatterplots {
+#container, #container_tissues, #container_heatmap, #container_scatterplots, #container_deg {
 	 background-color: #fff;
 }
 
