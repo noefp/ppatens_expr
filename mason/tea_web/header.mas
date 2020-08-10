@@ -18,7 +18,7 @@
 	</head>
 
 	<body>
-
+		<& login_modal.mas &>
 
 		<div id="pmoss_header">
 
@@ -29,6 +29,9 @@
         <a class="pmoss_menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/pp_search_input.php">PpGML DB</a>
         <a class="pmoss_menu_tab" href="https://peatmoss.online.uni-marburg.de/ppatens_db/contact.php">About Us</a>
 				<a class="pmoss_menu_tab" href="https://www.plantco.de/" target="_blank"><span class="plant">plant</span><span class="plantco">co</span><span class="plantco-dot">.</span><span class="plantco">de</span></a>
+				<!-- <span id="login_li"> -->
+					<& login_menu.mas &>
+				<!-- </span> -->
       </div>
 
 			<div id="peatmoss_menu_bar">
@@ -69,7 +72,7 @@
 }
 
 .pmoss_menu_tab_div {
-	width: 850px;
+	width: 950px;
 	margin:auto;
 	padding-top:5px;
 	padding-left:40px;
