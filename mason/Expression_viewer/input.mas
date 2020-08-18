@@ -8,7 +8,7 @@ $input_gene => ()
 <style>
 
 .input_width {
-  width: 900px;
+  width: 1000px;
 }
 
 </style>
@@ -18,7 +18,7 @@ $input_gene => ()
 	<!-- <& input_title.mas &>-->
   <& input_filters.mas, project_html=>$project_html, species_html=>$species_html, delete_enabled=>$delete_enabled &>
 <center>
-  <h3>Select input type</h3>
+  <h3>2. Select input type</h3>
 	<& input_options.mas, input_gene => $input_gene &>
 </center>
 
