@@ -20,7 +20,7 @@ $species_html => ()
         </select>
       </div>
 
-      <div style="font-weight:700;margin-bottom:5px">Data sets <a href="/project_menu" target="blank" style="float:right">more info</a></div>
+      <div style="font-weight:700;margin-bottom:5px">Data sets <a href="/expression_viewer/project_menu" target="blank" style="float:right">more info</a></div>
       <div id="expr_datasets" class="panel panel-primary">
 
         <div class="panel-body" style="padding-top:0px; padding-bottom:0px">
