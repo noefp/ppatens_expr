@@ -92,7 +92,7 @@
         The second tab on the expression viewer output shows the expression values
         from the query gene in their anatomical and developmental context,
         using a color scale to display the expression on drawings that represent the stages and tissues (<a href="#output_fig6">Figure 6</a>).
-        <a href="/project_menu" target="blank">See the data set information for more details</a>.
+        <a href="/expression_viewer/project_menu" target="blank">See the data set information for more details</a>.
         Moving the mouse over the images will show a popup window with the expression value for each of the tissues.
       </p>
 
