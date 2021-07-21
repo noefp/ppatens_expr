@@ -26,7 +26,7 @@
         The Datasets section displays the list of datasets that are available in the expression atlas.
         Selecting one of the datasets will show the available stages, tissues and treatments in the selection boxes below.<br>
         Additionally, on the right-top corner of the projects box there is a link to
-        <a href="/project_menu" target="blank">'more info'</a> that will open
+        <a href="/expression_viewer/project_menu" target="blank">'more info'</a> that will open
         a new page where the user can find information, figures, articles and links associated with each of the projects.
       </p>
 
