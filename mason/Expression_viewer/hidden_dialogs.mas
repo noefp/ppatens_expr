@@ -11,7 +11,7 @@ $input_gene => ()
       </div>
       <div class="modal-body">
         <p class="black_text text-left">
-          Paste or type a Physcomitrella gene name using the right version for the dataset.
+          Paste or type a <i>P. patens</i> gene name using the right version for the dataset.
           The names will be autocompleted as you type (if the gene name exists for the selected dataset).
           When selecting a new dataset a new example gene will be displayed.<br>
           Eg.:<br>
