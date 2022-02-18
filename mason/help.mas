@@ -17,7 +17,7 @@
         in a format that is easy to export to spreadsheet software and to generate figures that are ready for presentations or publications.
         <br>
         <br>
-        PEATmoss unifies in one single tool <i>Physcomitrella patens</i> data sets from RNA-seq and expression microarrays based on
+        PEATmoss unifies in one single tool <i>P. patens</i> data sets from RNA-seq and expression microarrays based on
         multiple gene versions. Please, check out our video gallery for more information about PEATmoss and
         how the <i>P. patens</i> gene model lookup database is integrated
         to convert gene versions automatically when querying the expression data.
