@@ -4,7 +4,7 @@
 <br>
   <b>Description: </b>
 
-Generation of a transcriptome atlas covering most phases in the life cycle of the model bryophyte <i>Physcomitrella patens</i>,
+Generation of a transcriptome atlas covering most phases in the life cycle of the model bryophyte <i>P. patens</i>,
 including detailed sporophyte developmental progression (Each experiment has 3 replicates).
 The processed data from <a href="http://www.cell.com/molecular-plant/abstract/S1674-2052(15)00455-4" target="_blank">Ortiz-Ramirez <i>et al</i>., 2016</a>
 (RMA normalized) were scaled to a median value of 12.
