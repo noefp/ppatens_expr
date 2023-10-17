@@ -7,8 +7,8 @@
 Expression data of several experimental conditions for Gransden WT protonema in liquid Knop medium (Each experiment has 3 replicates).
 The data are derived from the CombiMatrix microarray platform and all samples were normalized by a median value of 12.
 Transition experiments from pH 5.8 to pH4.5 were published in
-<a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12572/full" target="_blank">Hiss <i>et al</i>., 2014</a>.
-The ABA time series experiment is under preparation.
+<a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12572/full" target="_blank">Hiss et al., 2014</a>.
+The ABA time series experiment was published in <a href="https://pubmed.ncbi.nlm.nih.gov/30941155/" target="_blank"> Arif et al. 2019</a>.
 </p>
 
 <& "abbreviations.mas" &>
